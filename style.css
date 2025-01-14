@@ -1,0 +1,65 @@
+.Hoz {
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 1%;
+    width: 30%;
+    float: left;
+    display: inline-block;
+
+
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#mid {
+    text-align: center;
+}
+
+
+@keyframes ol {
+    from {
+        background-color: blue;
+        width: 25px;
+        height: 20px;
+    }
+
+    to {
+        background-color: crimson;
+        width: 400px;
+        height: 200px;
+    }
+}
+
+ol {
+    width: 50px;
+    height: 200px;
+    animation-color: red;
+    animation-name: ol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+.h1 {
+    color: hotpink;
+}
+
+h1:hover {
+    color: purple;
+
+    font-size: 30px;
+}
+
+li:nth-child(2n) {
+    background-color: rgba(8, 235, 95, 0.562);
+}
+
+li::before {
+    content: " Engineer ";
+}
