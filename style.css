@@ -23,16 +23,26 @@ p {
 
 
 @keyframes ol {
-    from {
-        background-color: blue;
+    25% {
+        background-color: rgba(0, 255, 76, 0.587);
         width: 25px;
-        height: 20px;
+        height: 25px;
     }
 
-    to {
-        background-color: crimson;
-        width: 400px;
-        height: 200px;
+    50% {
+        background-color: rgb(227, 9, 24);
+        width: 60%;
+        height: 300px;
+    }
+    75%{
+        background-color: rgb(7, 123, 232);
+        width: 80%;
+        height: 275px; 
+    }
+    100% {
+        background-color:rgba(238, 11, 219, 0.91);
+        width: 85%;
+        height: 300px;
     }
 }
 
@@ -62,4 +72,13 @@ li:nth-child(2n) {
 
 li::before {
     content: " Engineer ";
+}
+
+.img-box img{
+    width: 50%;
+}
+.img-box{
+   display:grid;
+   grid-template-columns: repeat(3,1fr); 
+   row-gap: 50px;
 }
